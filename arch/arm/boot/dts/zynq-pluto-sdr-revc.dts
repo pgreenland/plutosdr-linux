@@ -261,6 +261,8 @@
 	phy-handle = <&ethernet_phy>;
 	pinctrl-names = "default";
 	pinctrl-0 = <&pinctrl_gem0_default>;
+	local-mac-address = [00 00 00 00 00 00];
+	mac-address = [00 00 00 00 00 00];
 
 	ethernet_phy: ethernet-phy@1 {
 		reg = <1>;
